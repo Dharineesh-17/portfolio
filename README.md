@@ -20,8 +20,6 @@
 
 ## 👋 About Me
 
-<img align="right" src="https://github.com/user-attachments/assets/0b3c12f5-5886-4764-9de4-4ec4c1e688c9" width="300" />
-
 I'm an **AI & Data Science** enthusiast passionate about building intelligent, real-world applications. I specialize in bridging the gap between cutting-edge AI research and practical, user-facing products.
 
 - 🎓 Pursuing **B.E. in Artificial Intelligence & Data Science**
@@ -30,8 +28,6 @@ I'm an **AI & Data Science** enthusiast passionate about building intelligent, r
 - 🏢 Interned at **Infosys Springboard** (Virtual 6.0)
 - 📜 Certified by **NPTEL**, **Infosys**, and **NASSCOM**
 - 🌍 Based in **India** · Open to collaborations
-
-<br clear="both"/>
 
 ---
 
@@ -43,11 +39,7 @@ I'm an **AI & Data Science** enthusiast passionate about building intelligent, r
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.demolab.com?user=Dharineesh-17&theme=tokyonight&hide_border=true&background=0d1117&ring=0d9488&fire=0d9488&currStreakLabel=0d9488&sideLabels=c9d1d9&dates=555555" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Dharineesh-17&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5" width="100%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Dharineesh-17&theme=tokyonight&hide_border=true&background=0d1117&ring=0d9488&fire=0d9488&currStreakLabel=0d9488&sideLabels=c9d1d9&dates=555555" />
 </p>
 
 ---
