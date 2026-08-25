@@ -1,162 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="124" viewBox="0 0 1200 124" role="img" aria-label="Spider web divider">
-  <defs>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#3E7BD6" stop-opacity="0.22"/>
-      <stop offset="0.65" stop-color="#3E7BD6" stop-opacity="0.08"/>
-      <stop offset="1" stop-color="#3E7BD6" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dotsBlue" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="8" cy="8" r="2.4" fill="#3E7BD6"/>
-    </pattern>
-    <pattern id="dotsRed" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="8" cy="8" r="2.4" fill="#D62828"/>
-    </pattern>
-    <clipPath id="panelClip"><rect x="4" y="4" width="1188" height="112" rx="16"/></clipPath>
-  </defs>
-  <rect x="10" y="10" width="1188" height="112" rx="16" fill="#0D47A1"/>
-  <g clip-path="url(#panelClip)">
-    <rect x="4" y="4" width="1188" height="112" rx="16" fill="#0D1117"/>
-    <rect x="28" y="74" width="236" height="40" fill="url(#dotsBlue)" opacity="0"><animate attributeName="opacity" from="0" to="0.3" dur="0.5s" begin="0.45s" fill="freeze"/></rect>
-    <rect x="936" y="10" width="236" height="40" fill="url(#dotsRed)" opacity="0"><animate attributeName="opacity" from="0" to="0.3" dur="0.5s" begin="0.55s" fill="freeze"/></rect>
-    <!-- corner webs -->
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 4 4 L 219.0 4.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.55s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 4 4 L 186.3 61.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.6s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 4 4 L 104.9 98.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.65s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 4 4 L 4.0 111.5"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.7s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 66.0 4.0 Q 73.1 13.9 56.6 20.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.75s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 56.6 20.4 Q 53.0 30.3 33.1 31.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.79s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 33.1 31.4 Q 21.4 38.9 4.0 35.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.83s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 128.0 4.0 Q 142.3 23.8 109.2 36.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.85s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 109.2 36.9 Q 102.1 56.6 62.2 58.7"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.89s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 62.2 58.7 Q 38.8 73.8 4.0 66.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.93s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 1192 116 L 977.0 116.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.65s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 1192 116 L 1009.7 59.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.7s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 1192 116 L 1091.1 21.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.75s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 1192 116 L 1192.0 8.5"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.8s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 1130.0 116.0 Q 1122.9 106.1 1139.4 99.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.85s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 1139.4 99.6 Q 1143.0 89.7 1162.9 88.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.89s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 1162.9 88.6 Q 1174.6 81.1 1192.0 85.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.93s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 1068.0 116.0 Q 1053.7 96.2 1086.8 83.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.95s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 1086.8 83.1 Q 1093.9 63.4 1133.8 61.3"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="0.99s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.2" fill="none" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" d="M 1133.8 61.3 Q 1157.2 46.2 1192.0 54.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.4s" begin="1.03s" fill="freeze"/></path>
-    <ellipse cx="600" cy="60" rx="178" ry="60" fill="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.7s" begin="0.15s" fill="freeze"/></ellipse>
-    <!-- bridge lines -->
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.7" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 4 60 Q 218 72 434 60"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.6s" begin="0.18s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" opacity="0.7" fill="none" stroke="#F5F5F5" stroke-width="1.8" stroke-linecap="round" d="M 766 60 Q 982 72 1192 60"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.6s" begin="0.24s" fill="freeze"/></path>
-    <!-- dew drops -->
-    <circle cx="132.6" cy="65.0" r="2.3" fill="#F5F5F5" opacity="0"><animate attributeName="opacity" from="0" to="0.9" dur="0.4s" begin="0.9s" fill="freeze"/><animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" begin="1.5s" repeatCount="indefinite"/></circle>
-    <circle cx="240.0" cy="65.9" r="2.3" fill="#F5F5F5" opacity="0"><animate attributeName="opacity" from="0" to="0.9" dur="0.4s" begin="1.02s" fill="freeze"/><animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" begin="1.9s" repeatCount="indefinite"/></circle>
-    <circle cx="339.1" cy="64.1" r="2.3" fill="#F5F5F5" opacity="0"><animate attributeName="opacity" from="0" to="0.9" dur="0.4s" begin="1.1400000000000001s" fill="freeze"/><animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" begin="2.3s" repeatCount="indefinite"/></circle>
-    <circle cx="873.6" cy="64.5" r="2.3" fill="#F5F5F5" opacity="0"><animate attributeName="opacity" from="0" to="0.9" dur="0.4s" begin="1.05s" fill="freeze"/><animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" begin="1.65s" repeatCount="indefinite"/></circle>
-    <circle cx="980.5" cy="66.0" r="2.3" fill="#F5F5F5" opacity="0"><animate attributeName="opacity" from="0" to="0.9" dur="0.4s" begin="1.17s" fill="freeze"/><animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" begin="2.05s" repeatCount="indefinite"/></circle>
-    <circle cx="1086.6" cy="64.5" r="2.3" fill="#F5F5F5" opacity="0"><animate attributeName="opacity" from="0" to="0.9" dur="0.4s" begin="1.29s" fill="freeze"/><animate attributeName="opacity" values="0.9;0.35;0.9" dur="3.2s" begin="2.45s" repeatCount="indefinite"/></circle>
-    <!-- web spokes -->
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 606.0 60.0 L 766.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.0s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 605.2 61.0 L 743.8 87.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.028s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 603.0 61.7 L 683.0 107.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.056s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 600.0 62.0 L 600.0 114.8"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.084s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 597.0 61.7 L 517.0 107.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.112s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 594.8 61.0 L 456.2 87.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.14s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 594.0 60.0 L 434.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.168s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 594.8 59.0 L 456.2 32.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.196s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 597.0 58.3 L 517.0 12.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.224s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 600.0 58.0 L 600.0 5.2"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.252s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 603.0 58.3 L 683.0 12.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.28s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="2.0" stroke-linecap="round" d="M 605.2 59.0 L 743.8 32.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.5s" begin="0.308s" fill="freeze"/></path>
-    <!-- web rings -->
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 642.0 60.0 Q 647.1 64.2 636.4 66.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.32s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 636.4 66.9 Q 634.5 71.4 621.0 72.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.336s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 621.0 72.0 Q 612.6 75.5 600.0 73.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.352s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 600.0 73.9 Q 587.4 75.5 579.0 72.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.368s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 579.0 72.0 Q 565.5 71.4 563.6 66.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.384s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 563.6 66.9 Q 552.9 64.2 558.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.4s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 558.0 60.0 Q 552.9 55.8 563.6 53.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.416s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 563.6 53.1 Q 565.5 48.6 579.0 48.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.432s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 579.0 48.0 Q 587.4 44.5 600.0 46.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.448s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 600.0 46.1 Q 612.6 44.5 621.0 48.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.464s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 621.0 48.0 Q 634.5 48.6 636.4 53.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.48s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 636.4 53.1 Q 647.1 55.8 642.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.496s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 684.0 60.0 Q 694.1 68.3 672.7 73.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.46s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 672.7 73.9 Q 668.9 82.7 642.0 84.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.476s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 642.0 84.0 Q 625.2 91.1 600.0 87.7"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.492s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 600.0 87.7 Q 574.8 91.1 558.0 84.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.508s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 558.0 84.0 Q 531.1 82.7 527.3 73.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.524s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 527.3 73.9 Q 505.9 68.3 516.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.54s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 516.0 60.0 Q 505.9 51.7 527.3 46.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.556s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 527.3 46.1 Q 531.1 37.3 558.0 36.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.572s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 558.0 36.0 Q 574.8 28.9 600.0 32.3"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.588s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 600.0 32.3 Q 625.2 28.9 642.0 36.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.604s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 642.0 36.0 Q 668.9 37.3 672.7 46.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.62s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 672.7 46.1 Q 694.1 51.7 684.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.636s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 726.0 60.0 Q 741.2 72.5 709.1 80.8"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.6s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 709.1 80.8 Q 703.4 94.1 663.0 96.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.616s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 663.0 96.0 Q 637.8 106.6 600.0 101.6"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.632s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 600.0 101.6 Q 562.2 106.6 537.0 96.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.648s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 537.0 96.0 Q 496.6 94.1 490.9 80.8"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.664s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 490.9 80.8 Q 458.8 72.5 474.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.68s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 474.0 60.0 Q 458.8 47.5 490.9 39.2"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.696s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 490.9 39.2 Q 496.6 25.9 537.0 24.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.712s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 537.0 24.0 Q 562.2 13.4 600.0 18.4"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.728s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 600.0 18.4 Q 637.8 13.4 663.0 24.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.744s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 663.0 24.0 Q 703.4 25.9 709.1 39.2"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.76s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" d="M 709.1 39.2 Q 741.2 47.5 726.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.776s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 758.0 60.0 Q 777.0 75.7 736.8 86.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.74s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 736.8 86.1 Q 729.6 102.8 679.0 105.2"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.756s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 679.0 105.2 Q 647.4 118.4 600.0 112.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.772s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 600.0 112.1 Q 552.6 118.4 521.0 105.2"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.788s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 521.0 105.2 Q 470.4 102.8 463.2 86.1"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.804s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 463.2 86.1 Q 423.0 75.7 442.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.82s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 442.0 60.0 Q 423.0 44.3 463.2 33.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.836s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 463.2 33.9 Q 470.4 17.2 521.0 14.8"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.852s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 521.0 14.8 Q 552.6 1.6 600.0 7.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.868s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 600.0 7.9 Q 647.4 1.6 679.0 14.8"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.884s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 679.0 14.8 Q 729.6 17.2 736.8 33.9"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.9s" fill="freeze"/></path>
-      <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.1" stroke-linecap="round" d="M 736.8 33.9 Q 777.0 44.3 758.0 60.0"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.45s" begin="0.916s" fill="freeze"/></path>
-    <!-- spider-sense twinkles -->
-    <g transform="translate(798 22)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.15s" fill="freeze"/>
-      <g>
-        <animateTransform attributeName="transform" type="scale" values="0;1.3;1" keyTimes="0;0.6;1" dur="0.45s" begin="1.15s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.35 1.4;0.35 0 0.6 1"/>
-        <g>
-          <animate attributeName="opacity" values="1;0.5;1" dur="2.4s" begin="1.75s" repeatCount="indefinite"/>
-          <path d="M 0 -14 L 3.6 -3.6 L 14 0 L 3.6 3.6 L 0 14 L -3.6 3.6 L -14 0 L -3.6 -3.6 Z" fill="#F5C518" stroke="#1A1A1A" stroke-width="2.2"/>
-        </g>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="web divider">
+  <!-- silk strand -->
+  <path d="M0 34 Q220 26 440 34 T880 34" fill="none" stroke="#F5F5F5" stroke-width="1.6" opacity="0.65">
+    <animate attributeName="opacity" values="0.45;0.8;0.45" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <!-- shimmer highlight travelling along the strand -->
+  <path d="M0 34 Q220 26 440 34 T880 34" fill="none" stroke="#F5C518" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="14 866" pathLength="880">
+    <animate attributeName="stroke-dashoffset" from="880" to="0" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <!-- dew drops -->
+  <circle cx="120" cy="31" r="2" fill="#F5F5F5"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="255" cy="29" r="1.6" fill="#F5F5F5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="615" cy="29" r="1.8" fill="#F5F5F5"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="770" cy="31" r="1.5" fill="#F5F5F5"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.9s" repeatCount="indefinite"/></circle>
+
+  <!-- spider hanging from strand center, swaying -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" values="-6 440 34;6 440 34;-6 440 34" dur="4.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+    <line x1="440" y1="34" x2="440" y2="76" stroke="#F5F5F5" stroke-width="1.3" opacity="0.75"/>
+    <g stroke="#D62828" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <path d="M440 84 C429 86 420 93 416 104"/>
+      <path d="M440 87 C427 91 420 99 418 110"/>
+      <path d="M440 90 C430 96 425 105 425 114"/>
+      <path d="M440 92 C435 99 433 107 434 116"/>
+      <path d="M440 84 C451 86 460 93 464 104"/>
+      <path d="M440 87 C453 91 460 99 462 110"/>
+      <path d="M440 90 C450 96 455 105 455 114"/>
+      <path d="M440 92 C445 99 447 107 446 116"/>
     </g>
-    <g transform="translate(398 98)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.12s" begin="1.35s" fill="freeze"/>
-      <g>
-        <animateTransform attributeName="transform" type="scale" values="0;1.3;1" keyTimes="0;0.6;1" dur="0.45s" begin="1.35s" fill="freeze" calcMode="spline" keySplines="0.2 0.6 0.35 1.4;0.35 0 0.6 1"/>
-        <g>
-          <animate attributeName="opacity" values="1;0.5;1" dur="2.4s" begin="1.9500000000000002s" repeatCount="indefinite"/>
-          <path d="M 0 -9 L 2.3 -2.3 L 9 0 L 2.3 2.3 L 0 9 L -2.3 2.3 L -9 0 L -2.3 -2.3 Z" fill="#3E7BD6" stroke="#1A1A1A" stroke-width="2.2"/>
-        </g>
-      </g>
-    </g>
-    <!-- spider at web center: base = final pos; drop reverts to identity -->
-    <g transform="translate(600 60)" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.15s" begin="0.5s" fill="freeze"/>
-      <g>
-        <animateTransform attributeName="transform" type="translate" values="0 -80;0 0" dur="0.7s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.35 1.2"/>
-        <g>
-          <animateTransform attributeName="transform" type="translate" values="0 0;0 2.6;0 0" dur="2.8s" begin="1.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-          <g stroke="#F5F5F5" stroke-width="2.6" fill="none" stroke-linecap="round">
-          <path d="M -6 -8 C -16 -16 -22 -27 -23 -38"/>
-          <path d="M -8 -4 C -20 -6 -29 -14 -33 -25"/>
-          <path d="M -8 3 C -20 6 -27 15 -29 27"/>
-          <path d="M -6 9 C -15 18 -19 29 -19 39"/>
-          <path d="M 6 -8 C 16 -16 22 -27 23 -38"/>
-          <path d="M 8 -4 C 20 -6 29 -14 33 -25"/>
-          <path d="M 8 3 C 20 6 27 15 29 27"/>
-          <path d="M 6 9 C 15 18 19 29 19 39"/>
-          </g>
-          <ellipse cx="0" cy="9" rx="10" ry="13" fill="#D62828" stroke="#1A1A1A" stroke-width="2.5"/>
-          <circle cx="0" cy="-7" r="6.5" fill="#D62828" stroke="#1A1A1A" stroke-width="2.5"/>
-          <circle cx="-2.6" cy="-8.6" r="1.7" fill="#F5F5F5"/>
-          <circle cx="2.6" cy="-8.6" r="1.7" fill="#F5F5F5"/>
-        </g>
-      </g>
-    </g>
+    <ellipse cx="440" cy="91" rx="7.5" ry="10" fill="#D62828" stroke="#1A1A1A" stroke-width="1.4"/>
+    <circle cx="440" cy="81" r="4.6" fill="#D62828" stroke="#1A1A1A" stroke-width="1.4"/>
+    <circle cx="437.5" cy="79.8" r="1.2" fill="#F5F5F5"/>
+    <circle cx="442.5" cy="79.8" r="1.2" fill="#F5F5F5"/>
   </g>
-  <rect x="4" y="4" width="1188" height="112" rx="16" fill="none" stroke="#1A1A1A" stroke-width="5"/>
 </svg>
