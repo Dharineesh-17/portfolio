@@ -1,35 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="web divider">
-  <!-- silk strand -->
-  <path d="M0 34 Q220 26 440 34 T880 34" fill="none" stroke="#F5F5F5" stroke-width="1.6" opacity="0.65">
-    <animate attributeName="opacity" values="0.45;0.8;0.45" dur="4s" repeatCount="indefinite"/>
-  </path>
-  <!-- shimmer highlight travelling along the strand -->
-  <path d="M0 34 Q220 26 440 34 T880 34" fill="none" stroke="#F5C518" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="14 866" pathLength="880">
-    <animate attributeName="stroke-dashoffset" from="880" to="0" dur="5s" repeatCount="indefinite"/>
-  </path>
-  <!-- dew drops -->
-  <circle cx="120" cy="31" r="2" fill="#F5F5F5"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" repeatCount="indefinite"/></circle>
-  <circle cx="255" cy="29" r="1.6" fill="#F5F5F5"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.6s" repeatCount="indefinite"/></circle>
-  <circle cx="615" cy="29" r="1.8" fill="#F5F5F5"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.5s" repeatCount="indefinite"/></circle>
-  <circle cx="770" cy="31" r="1.5" fill="#F5F5F5"><animate attributeName="opacity" values="0.25;0.85;0.25" dur="2.9s" repeatCount="indefinite"/></circle>
-
-  <!-- spider hanging from strand center, swaying -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" values="-6 440 34;6 440 34;-6 440 34" dur="4.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
-    <line x1="440" y1="34" x2="440" y2="76" stroke="#F5F5F5" stroke-width="1.3" opacity="0.75"/>
-    <g stroke="#D62828" stroke-width="2.2" fill="none" stroke-linecap="round">
-      <path d="M440 84 C429 86 420 93 416 104"/>
-      <path d="M440 87 C427 91 420 99 418 110"/>
-      <path d="M440 90 C430 96 425 105 425 114"/>
-      <path d="M440 92 C435 99 433 107 434 116"/>
-      <path d="M440 84 C451 86 460 93 464 104"/>
-      <path d="M440 87 C453 91 460 99 462 110"/>
-      <path d="M440 90 C450 96 455 105 455 114"/>
-      <path d="M440 92 C445 99 447 107 446 116"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140" role="img" aria-label="Spider silk divider">
+  <path pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" fill="none" stroke="#D62828" stroke-width="2.2" stroke-linecap="round" d="M 0 46 C 240 74, 430 62, 600 54 C 770 62, 960 74, 1200 46"><animate attributeName="stroke-dashoffset" from="1" to="0" dur="0.9s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.6 1"/></path>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.2s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 -55;0 0" dur="0.9s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.6 1"/>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" values="-7 600 54;7 600 54;-7 600 54" dur="4.6s" begin="1.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+        <line x1="600" y1="54" x2="600" y2="102" stroke="#D62828" stroke-width="1.6"/>
+  <g transform="translate(600 104)">
+      <g transform="scale(1.0)">
+        <g>
+<path d="M -7 -9 C -17 -17 -23 -28 -24 -39" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M -9 -5 C -21 -7 -30 -15 -34 -26" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M -9 2 C -21 5 -28 14 -30 26" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M -7 8 C -16 17 -20 28 -20 38" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M 7 -9 C 17 -17 23 -28 24 -39" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M 9 -5 C 21 -7 30 -15 34 -26" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M 9 2 C 21 5 28 14 30 26" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+      <path d="M 7 8 C 16 17 20 28 20 38" transform="scale(1.0)" stroke="#B02633" stroke-width="2.30" fill="none" stroke-linecap="round"/>
+        </g>
+        <ellipse cx="0" cy="10" rx="8.5" ry="11" fill="#D62828" stroke="#1A1A1A" stroke-width="2"/>
+        <circle cx="0" cy="-6.5" r="5.5" fill="#D62828" stroke="#1A1A1A" stroke-width="2"/>
+        <circle cx="-2.2" cy="-8" r="1.5" fill="#F5F5F5"/>
+        <circle cx="2.2" cy="-8" r="1.5" fill="#F5F5F5"/>
+      </g>
     </g>
-    <ellipse cx="440" cy="91" rx="7.5" ry="10" fill="#D62828" stroke="#1A1A1A" stroke-width="1.4"/>
-    <circle cx="440" cy="81" r="4.6" fill="#D62828" stroke="#1A1A1A" stroke-width="1.4"/>
-    <circle cx="437.5" cy="79.8" r="1.2" fill="#F5F5F5"/>
-    <circle cx="442.5" cy="79.8" r="1.2" fill="#F5F5F5"/>
+      </g>
+    </g>
   </g>
 </svg>
